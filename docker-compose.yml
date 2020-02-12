@@ -1,0 +1,17 @@
+version: "2"
+services: 
+  app:
+    container_name: form-generator
+    restart: always
+    image: rkallumar/formGenerator
+    ports:
+      - "8000:8000"
+    links: 
+      - mongo
+  mongo:
+    container_name: mongo
+    volumes:
+      - ./data/formGenerator:/data/db
+    image: mongo
+    ports:
+    - "27017:27017"

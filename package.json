@@ -1,0 +1,26 @@
+{
+  "name": "form-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.1",
+    "body-parser": "^1.19.0",
+    "connect-busboy": "0.0.2",
+    "cors": "^2.8.5",
+    "docx-pdf": "0.0.1",
+    "docxtemplater": "^3.16.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "multer": "^1.4.2",
+    "pizzip": "^3.0.6",
+    "word2pdf": "^1.0.8"
+  }
+}
